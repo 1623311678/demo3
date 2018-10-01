@@ -1,0 +1,5 @@
+{
+    "name": "footer",
+    "main": "./footer.tsx",
+    "types": "./footer.tsx"
+}

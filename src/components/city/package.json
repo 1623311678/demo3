@@ -1,0 +1,5 @@
+{
+    "name": "city",
+    "main": "./city.tsx",
+    "types": "./city.tsx"
+}

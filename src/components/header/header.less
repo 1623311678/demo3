@@ -1,0 +1,29 @@
+@import "~themes/default.css";
+@import "~themes/global.less";
+@import "~themes/variable.less";
+.nav {
+  width: 100%;
+  height: @--one-uint-length * 80;
+  background-color: @greay;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 @--one-uint-length * 10 0 @light-greay;
+}
+.nav-item {
+  color: @nav-item-color;
+}
+.icon-yonghu {
+  color: @icon-color;
+  font-size: @--one-uint-length * 40;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+.icon-tianqi {
+  color: @icon-color;
+  font-size: @--one-uint-length * 40;
+  display: inline-block;
+  position: absolute;
+  right:0;
+}

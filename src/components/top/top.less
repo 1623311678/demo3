@@ -1,0 +1,34 @@
+@import "~themes/default.css";
+@import "~themes/global.less";
+@import "~themes/variable.less";
+
+.tupian {
+  display: flex;
+
+  span {
+    flex: 1;
+    display: inline-block;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+.wenzi {
+  display: flex;
+  span {
+    flex: 1;
+    display: inline-block;
+    font-size: @--ten-uint-length * 3;
+    text-align: center;
+  }
+}
+.top {
+  box-shadow: 0 @--one-uint-length * 2 0 @light-greay;
+}
+.title-item {
+  text-align: center;
+  color: @light-blue;
+  margin-top: @--one-uint-length * 20;
+  font-size: @--one-uint-length * 40;
+}

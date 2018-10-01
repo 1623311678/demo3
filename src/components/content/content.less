@@ -1,0 +1,46 @@
+@import "~themes/default.css";
+@import "~themes/global.less";
+@import "~themes/variable.less";
+
+.content {
+  display: flex;
+}
+.content-first {
+  flex: 1;
+  height: @--one-uint-length * 300;
+  margin-top: @--one-uint-length * 20;
+  background-color: @blue;
+  border-radius: @--one-uint-length * 20;
+  opacity: 0.6;
+  li {
+    color: @white;
+    list-style: none;
+    text-align: center;
+  }
+  .footer-item {
+    color: @white;
+    text-align: center;
+    font-size: @--one-uint-length * 5;
+    margin-top: @--one-uint-length * 40;
+  }
+}
+.left {
+  background-color: @purple;
+}
+.second-right {
+  background-color: @orange;
+}
+.second-left {
+  background-color: @pink;
+}
+.footer{
+    height:@--one-uint-length * 200;
+    background-color: @light-blue;
+    border-radius: @--one-uint-length * 20;
+    margin-top: @--one-uint-length * 20;
+}
+li {
+    color: @white;
+    list-style: none;
+    text-align: center;
+  }
